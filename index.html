@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Séries Favoritas - MapaDev Week</title>
+
+    <link rel="shortcut icon" href="src/imagens/camera.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Uchen&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="src/css/reset.css">
+
+    <link rel="stylesheet" href="src/css/estilos.css">
+
+    <link rel="stylesheet" href="src/css/responsivo.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <img src="src/imagens/camera.png" alt="series" class="series"/>
+        <h1 class="titulo">Séries Favoritas</h1>
+    </header>
+
+    <main class="series-slider">
+        <button class="btn-seta btn-voltar" id="btn-voltar">
+            <img src="src/imagens/seta.png" alt="seta voltar">
+        </button>
+
+        <ul class="lista-series">
+            <li class="cartao selecionado fundo-1">
+                <div class="informacoes">
+                    <h2 class="nome">Friends</h2>
+                    
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/friends.jpg" width="250px" height="290px" alt="Friends" class="imagem-friends">
+                </div>
+
+                <div class="sinopse">
+                    <h3 class="titulo">Sinopse</h3>
+                    <p class="texto">Seis jovens são unidos por laços familiares, românticos e, principalmente, de amizade, enquanto tentam vingar em Nova York.</p>
+                </div>
+            </li>
+            
+            <li class="cartao  fundo-2">
+                <div class="informacoes">
+                    <h2 class="nome">Prison Break</h2>
+                    
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/prison-break.jpg" width="240px" height="240px" alt="Prison Break">
+                </div>
+
+                <div class="sinopse">
+                    <h3 class="titulo">Sinopse</h3>
+                    <p class="texto">A história gira em torno de Lincoln Burrows, um homem que foi sentenciado à morte por supostamente ter assassinado o irmão da vice-presidente dos EUA, e seu irmão, Michael Scofield, um engenheiro civil, que cria um plano para resgatá-lo da prisão antes que seja executado.</p>
+                </div>
+            </li>
+
+            <li class="cartao  fundo-3">
+                <div class="informacoes">
+                    <h2 class="nome">Anne With An E</h2>
+                   
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/anne-e.jpg"  width="235px" height="240px" alt="Anne With An E">
+                </div>
+
+                <div class="sinopse">
+                    <h3 class="titulo">Sinopse</h3>
+                    <p class="texto">Depois de treze anos sofrendo no sistema de assistência social, a orfã Anne é mandada para morar com uma solteirona e seu irmão. Munida de sua imaginação e de seu intelecto, a pequena Anne vai transformar a vida de sua família adotiva e da cidade que lhe abrigou, lutando pela sua aceitação e pelo seu lugar no mundo.</p>
+                </div>
+            </li>
+
+            <li class="cartao  fundo-4">
+                <div class="informacoes">
+                    <h2 class="nome">The Office</h2>
+                    
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/office.jpg" width="259px" height="259px" alt="The Office">
+                </div>
+
+                <div class="sinopse">
+                    <h3 class="titulo">Sinopse</h3>
+                    <p class="texto">Esta versão americana de "The Office" é uma comédia que gira em torno do cotidiano de um escritório. Esta sátira descreve a vida dos funcionários da fábrica de papel Dunder Miffin, situada em Scranton, na Pensilvânia. Entre os personagens está Michael Scout (Steve Carell), o gerente regional da empresa.</p>
+                </div>
+            </li>
+
+            <li class="cartao  fundo-5">
+                <div class="informacoes">
+                    <h2 class="nome">The Walking Dead</h2>
+                    
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/the-walking-dead.jpg" width="240px" height="240px" alt="The Walking Dead">
+                </div>
+
+                <div class="sinopse">
+                    <h3 class="titulo">Sinopse</h3>
+                    <p class="texto">Baseado na história em quadrinhos escrita por Robert Kirkman, este drama potente e visceral retrata a vida nos Estados Unidos pós-apocalíptico. Um grupo de sobreviventes, liderado pelo policial Rick Grimes, segue viajando em busca de uma nova moradia segura e distante dos mortos-vivos.</p>
+                </div>
+            </li>
+
+            <li class="cartao  fundo-6">
+                <div class="informacoes">
+                    <h2 class="nome">Game Of Thrones</h2>
+                    
+                </div>
+
+                <div class="container-imagem">
+                    <img src="src/imagens/game-thrones.jpg" width="240px" height="240px" alt="Game Of Thrones">
+                </div>
+
+                <div class="sinopse">
+                    <h3 class="titulo">Sinopse</h3>
+                    <p class="texto">Situada nos continentes fictícios de Westeros e Essos, a série centra-se no Trono de Ferro dos Sete Reinos e segue um enredo de alianças e conflitos entre as famílias nobres dinásticas, seja competindo para reivindicar o trono ou lutando por sua independência.</p>
+                </div>
+            </li>
+
+            
+        </ul>
+
+        <button class="btn-seta" id="btn-avancar">
+            <img src="src/imagens/seta.png" alt="seta avançar">
+        </button>
+    </main>
+
+    <script src="src/js/index.js"></script>
+</body>
+</html>
